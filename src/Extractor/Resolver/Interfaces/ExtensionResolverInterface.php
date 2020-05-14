@@ -30,4 +30,13 @@ interface ExtensionResolverInterface
      * @throws ExtensionNotSupportedException Exception not found
      */
     public function getAdapterNamespaceGivenExtension($fileExtension);
+
+    /**
+     * Return a extension for given file path
+     *
+     * @param string $filePath File path
+     *
+     * @return string Extension
+     */
+    public function getExtensionGivenFilePath($filePath);
 }

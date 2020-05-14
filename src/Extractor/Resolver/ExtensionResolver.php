@@ -66,4 +66,32 @@ class ExtensionResolver implements ExtensionResolverInterface
 
         return $adapterNamespace;
     }
+
+    public function isValidExtension($extension)
+    {
+        try {
+            $this->getAdapterNamespaceGivenExtension($extension);
+
+            return true;
+        } catch (ExtensionNotSupportedException $exception) {
+            return false;
+        }
+    }
+
+    public function getExtensionGivenFilePath($filePath)
+    {
+        $extension = pathinfo($filePath, PATHINFO_EXTENSION);
+
+        if (!$this->isValidExtension($extension)) {
+            $mime_type = mime_content_type($filePath);
+
+            if ($mime_type == 'application/zip' || $mime_type == 'application/x-7z-compressed') {
+                $extension = 'zip';
+            } elseif ($mime_type == 'application/x-rar') {
+                $extension = 'rar';
+            }
+        }
+
+        return $extension;
+    }
 }
