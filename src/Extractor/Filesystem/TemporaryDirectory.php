@@ -11,9 +11,9 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Filesystem;
+namespace Vzaica\Extractor\Filesystem;
 
-use Mmoreram\Extractor\Filesystem\Interfaces\DirectoryInterface;
+use Vzaica\Extractor\Filesystem\Interfaces\DirectoryInterface;
 
 /**
  * Class TemporaryDirectory

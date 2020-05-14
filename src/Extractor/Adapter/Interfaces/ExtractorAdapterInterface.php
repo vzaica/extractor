@@ -11,7 +11,7 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Adapter\Interfaces;
+namespace Vzaica\Extractor\Adapter\Interfaces;
 
 use Symfony\Component\Finder\Finder;
 

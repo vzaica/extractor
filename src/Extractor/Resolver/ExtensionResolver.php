@@ -11,10 +11,10 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Resolver;
+namespace Vzaica\Extractor\Resolver;
 
-use Mmoreram\Extractor\Exception\ExtensionNotSupportedException;
-use Mmoreram\Extractor\Resolver\Interfaces\ExtensionResolverInterface;
+use Vzaica\Extractor\Exception\ExtensionNotSupportedException;
+use Vzaica\Extractor\Resolver\Interfaces\ExtensionResolverInterface;
 
 /**
  * Class ExtensionResolver
@@ -32,7 +32,7 @@ class ExtensionResolver implements ExtensionResolverInterface
      */
     public function getAdapterNamespaceGivenExtension($fileExtension)
     {
-        $adapterNamespace = '\Mmoreram\Extractor\Adapter\\';
+        $adapterNamespace = '\Vzaica\Extractor\Adapter\\';
 
         switch ($fileExtension) {
 

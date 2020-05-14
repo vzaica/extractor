@@ -11,7 +11,7 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Filesystem\Interfaces;
+namespace Vzaica\Extractor\Filesystem\Interfaces;
 
 /**
  * Interface DirectoryInterface

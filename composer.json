@@ -1,5 +1,5 @@
 {
-    "name": "mmoreram/extractor",
+    "name": "vzaica/extractor",
     "description": "Extractor project for php",
     "keywords": ["extractor", "php", "Phar", "Rar", "Zip"],
     "type": "library",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mmoreram\\Extractor\\": "src/Extractor"
+            "Vzaica\\Extractor\\": "src/Extractor"
         }
     },
     "minimum-stability": "stable",

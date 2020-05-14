@@ -11,7 +11,7 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Exception;
+namespace Vzaica\Extractor\Exception;
 
 use Exception;
 

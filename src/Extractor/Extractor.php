@@ -11,15 +11,15 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor;
+namespace Vzaica\Extractor;
 
-use Mmoreram\Extractor\Adapter\Interfaces\ExtractorAdapterInterface;
-use Mmoreram\Extractor\Exception\AdapterNotAvailableException;
-use Mmoreram\Extractor\Exception\ExtensionNotSupportedException;
-use Mmoreram\Extractor\Exception\FileNotFoundException;
-use Mmoreram\Extractor\Filesystem\Interfaces\DirectoryInterface;
-use Mmoreram\Extractor\Resolver\ExtensionResolver;
-use Mmoreram\Extractor\Resolver\Interfaces\ExtensionResolverInterface;
+use Vzaica\Extractor\Adapter\Interfaces\ExtractorAdapterInterface;
+use Vzaica\Extractor\Exception\AdapterNotAvailableException;
+use Vzaica\Extractor\Exception\ExtensionNotSupportedException;
+use Vzaica\Extractor\Exception\FileNotFoundException;
+use Vzaica\Extractor\Filesystem\Interfaces\DirectoryInterface;
+use Vzaica\Extractor\Resolver\ExtensionResolver;
+use Vzaica\Extractor\Resolver\Interfaces\ExtensionResolverInterface;
 use Symfony\Component\Finder\Finder;
 
 /**

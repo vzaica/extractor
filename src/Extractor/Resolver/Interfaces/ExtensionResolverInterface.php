@@ -11,9 +11,9 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Resolver\Interfaces;
+namespace Vzaica\Extractor\Resolver\Interfaces;
 
-use Mmoreram\Extractor\Exception\ExtensionNotSupportedException;
+use Vzaica\Extractor\Exception\ExtensionNotSupportedException;
 
 /**
  * Interface ExtensionResolverInterface

@@ -11,9 +11,9 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Adapter\Abstracts;
+namespace Vzaica\Extractor\Adapter\Abstracts;
 
-use Mmoreram\Extractor\Filesystem\Interfaces\DirectoryInterface;
+use Vzaica\Extractor\Filesystem\Interfaces\DirectoryInterface;
 use Symfony\Component\Finder\Finder;
 
 /**

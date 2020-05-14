@@ -11,10 +11,10 @@
  * @author Marc Morera <yuhu@mmoreram.com>
  */
 
-namespace Mmoreram\Extractor\Adapter;
+namespace Vzaica\Extractor\Adapter;
 
-use Mmoreram\Extractor\Adapter\Abstracts\AbstractExtractorAdapter;
-use Mmoreram\Extractor\Adapter\Interfaces\ExtractorAdapterInterface;
+use Vzaica\Extractor\Adapter\Abstracts\AbstractExtractorAdapter;
+use Vzaica\Extractor\Adapter\Interfaces\ExtractorAdapterInterface;
 use RarArchive;
 use RarEntry;
 use Symfony\Component\Finder\Finder;
